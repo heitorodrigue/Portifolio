@@ -4,6 +4,7 @@ import Projects from "../Projects";
 import About from "../About";
 import Skills from "../Skills";
 import Experience from "../Experience";
+import Contact from "../Contact";
 
 export default function Layout() {
   return (
@@ -12,8 +13,9 @@ export default function Layout() {
       <Hero />
       <Projects />
       <About />
-      <Skills />
+      <Skills />  
       <Experience />
+      <Contact />
     </>
   );
 }
