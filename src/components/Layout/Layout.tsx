@@ -3,6 +3,7 @@ import Hero from "../Hero";
 import Projects from "../Projects";
 import About from "../About";
 import Skills from "../Skills";
+import Experience from "../Experience";
 
 export default function Layout() {
   return (
@@ -12,6 +13,7 @@ export default function Layout() {
       <Projects />
       <About />
       <Skills />
+      <Experience />
     </>
   );
 }
