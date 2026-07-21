@@ -1,75 +1,105 @@
-# React + TypeScript + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfólio profissional desenvolvido para apresentar minha trajetória, experiências e principais projetos como desenvolvedor Backend.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Icons
 
-## React Compiler
+## ✨ Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Página única (Single Page)
+- Design moderno e responsivo
+- Seções organizadas por componentes
+- Navegação dinâmica
+- Apresentação profissional
+- Projetos em destaque
+- Skills organizadas por categorias
+- Experiência profissional e acadêmica
+- Contato rápido por GitHub, LinkedIn, E-mail e WhatsApp
 
-## Expanding the ESLint configuration
+## 📂 Estrutura do projeto
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```text
+src
+├── assets
+├── components
+│   ├── shared
+│   ├── Navbar
+│   ├── Hero
+│   ├── About
+│   ├── Skills
+│   ├── Projects
+│   ├── Experience
+│   ├── Contact
+│   ├── Footer
+│   └── Layout
+├── data
+├── types
+├── App.tsx
+├── main.tsx
+└── index.css
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## ▶️ Como executar
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Clone o repositório:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+git clone https://github.com/heitorodrigue/portfolio.git
+```
+
+Entre na pasta:
+
+```bash
+cd portfolio
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o projeto:
+
+```bash
+npm run dev
+```
+
+A aplicação ficará disponível em:
 
 ```
+http://localhost:5173
+```
+
+## 📸 Preview
+
+Em breve.
+
+## 📌 Projetos em destaque
+
+- **LarFix** — Sistema para gerenciamento de despesas residenciais desenvolvido com ASP.NET Core, Entity Framework Core, SQLite, React e TypeScript.
+
+- **HelpNOW** — Plataforma web para solicitação de ajuda comunitária desenvolvida com Flask, SQLAlchemy e Bulma CSS.
+
+## 👨‍💻 Sobre mim
+
+Sou estudante de Ciência da Computação e desenvolvedor com foco em Backend.
+
+Atualmente trabalho com Kotlin, Delphi e PostgreSQL, além de desenvolver projetos utilizando C#, ASP.NET Core, React e TypeScript. Também possuo interesse em Inteligência Artificial e busco construir aplicações escaláveis, organizadas e de fácil manutenção.
+
+## 📫 Contato
+
+- GitHub: https://github.com/heitorodrigue
+- LinkedIn: https://www.linkedin.com/in/heitorodriguesaraujo
+- E-mail: heitorodrigues486@gmail.com
+- WhatsApp: https://wa.me/5527993115292
+
+---
+
+Desenvolvido por **Heitor Rodrigues**.
