@@ -9,7 +9,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
 
-  background-color: #020617;
+  background: radial-gradient(circle at top, #0f172a 0%, #020617 45%, #020617 100%);
   color: #f8fafc;
 
   font-family: Inter, system-ui, sans-serif;

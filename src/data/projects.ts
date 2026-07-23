@@ -25,13 +25,17 @@ export const projects: Project[] = [
     title: "HelpNOW",
 
     description:
-      "Aplicação web para gerenciamento de chamados desenvolvida utilizando Flask, SQLAlchemy e Bulma durante projeto acadêmico.",
+    "Marketplace que conecta clientes a prestadores de serviços domésticos sem intermediários. Desenvolvido com Flask (padrão Application Factory), SQLAlchemy e Jinja2, contando com autenticação de perfis distintos, fluxo completo de chamados, validação com WTForms e testes automatizados.",
 
     technologies: [
       "Python",
       "Flask",
       "SQLAlchemy",
-      "Bulma",
+      "WTForms",
+      "Bulma CSS",
+      "Jinja2",
+      "Pytest",
+      "SQLite"
     ],
 
     github: "https://github.com/heitorodrigue/helpnow",

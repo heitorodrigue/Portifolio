@@ -1,10 +1,12 @@
 import { projects } from "../../data/projects";
 
 import Card from "../shared/Card";
+import FadeIn from "../shared/FadeIn";
 import SectionTitle from "../shared/SectionTitle";
 
 export default function Projects() {
   return (
+    <FadeIn>
     <section
       id="projects"
       className="mx-auto max-w-6xl px-6 py-24"
@@ -41,5 +43,6 @@ export default function Projects() {
         ))}
       </div>
     </section>
+    </FadeIn>
   );
 }

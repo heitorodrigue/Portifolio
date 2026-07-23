@@ -1,10 +1,12 @@
 import Card from "../shared/Card";
+import FadeIn from "../shared/FadeIn";
 import SectionTitle from "../shared/SectionTitle";
 
 import { skills } from "../../data/skills";
 
 export default function Skills() {
   return (
+    <FadeIn>
     <section
       id="skills"
       className="mx-auto max-w-6xl px-6 py-24"
@@ -35,5 +37,6 @@ export default function Skills() {
         ))}
       </div>
     </section>
+    </FadeIn>
   );
 }

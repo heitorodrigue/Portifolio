@@ -1,8 +1,10 @@
 import SectionTitle from "../shared/SectionTitle";
 import { socialLinks } from "../../data/social";
+import FadeIn from "../shared/FadeIn";
 
 export default function Contact() {
   return (
+    <FadeIn>
     <section
       id="contact"
       className="mx-auto flex max-w-4xl flex-col items-center px-6 py-24 text-center"
@@ -31,5 +33,6 @@ export default function Contact() {
         })}
       </div>
     </section>
+    </FadeIn>
   );
 }

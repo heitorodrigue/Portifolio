@@ -1,9 +1,10 @@
 import { about } from "../../data/about";
-
+import FadeIn from "../shared/FadeIn";
 import SectionTitle from "../shared/SectionTitle";
 
 export default function About() {
   return (
+    <FadeIn>
     <section
       id="about"
       className="mx-auto max-w-6xl px-6 py-24"
@@ -21,5 +22,6 @@ export default function About() {
         ))}
       </div>
     </section>
+    </FadeIn>
   );
 }
