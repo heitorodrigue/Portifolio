@@ -1,6 +1,10 @@
 # Portfolio
 
-Portfólio profissional desenvolvido para apresentar minha trajetória, experiências e principais projetos como desenvolvedor Backend.
+Portfólio desenvolvido com React, TypeScript e Tailwind CSS para apresentar minha trajetória, experiências, projetos e principais competências como desenvolvedor Backend.
+
+## 🌐 Acesse
+
+**Demo:** https://heitorrodrigues.vercel.app/
 
 ## 🚀 Tecnologias
 
@@ -79,7 +83,7 @@ http://localhost:5173
 
 ## 📸 Preview
 
-Em breve.
+![Portfolio Preview](./assets/preview.png)
 
 ## 📌 Projetos em destaque
 
